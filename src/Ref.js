@@ -16,8 +16,7 @@ const RefComponent = () => {
           }}
         ></input>
         <h1>Type to test my UseRef and count component rerenders...</h1>
-        <h1>{numRef.current}</h1>
-        <h1>{text}</h1>
+        <h1>{numRef.current} : {text}</h1>
       </div>
     </div>
   );
