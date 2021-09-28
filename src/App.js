@@ -1,5 +1,6 @@
 import State from "./State";
 import Ref from "./Ref";
+import Effect from "./Effect";
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
       <Ref />
       <hr/>
       <State/>
+      <hr/>
+      <Effect/>
     </div>
   );
 }
